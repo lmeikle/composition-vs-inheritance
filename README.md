@@ -1,5 +1,5 @@
-This project is for me to play around with composition vs inheritance.
-2 examples of how to use composition are given using classes and factory functions.
+This project is for me to play around with composition vs inheritance.<br/>
+2 examples of how to use composition are given using classes and factory functions.<br/>
 I need to play around with this more still to get a fuller understanding of the benefits of using the classes version.
 
 The code examples are based on creating the following objects:<br/>
@@ -10,12 +10,12 @@ The code examples are based on creating the following objects:<br/>
 
 Using inheritance to create the CrossfitAthlete would mean we have to either duplicate code,<br/>
 or merge functionality meaning code would be pulled in for objects that will never need it (the gorilla banana problem).<br/>
-In addition to the above, inheritance also has the fragile base class problem - i.e. I want to change this but I'm not sure what it might break!!<br/>
+In addition to the above, inheritance also has the fragile base class problem - i.e. I want to change this but I'm not sure what it might break!!
 So instead we should think about using Composition.
 
 Helpful articles:
 
-	https://developers.caffeina.com/object-composition-patterns-in-javascript-4853898bb9d0<br/>
+	https://developers.caffeina.com/object-composition-patterns-in-javascript-4853898bb9d0
 	https://alligator.io/js/class-composition/
 
 How to run it:
